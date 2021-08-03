@@ -35,18 +35,17 @@ canvas.pack()
 frame = tk.Frame(root, bg="#c9c5e8", bd=5)
 frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor="n")
 
-entry = tk.Entry(frame, font=("PT Serif", 18))
-entry.place(relx=0.27,relwidth=0.72, relheight=1)
-
 search = tk.Button(frame, text="Search", fg="#5548b7", font=("PT Serif", 23), command=lambda: get_weather(entry.get()))
 search.place(relx=0.01, relwidth=0.24, relheight=1)
+
+entry = tk.Entry(frame, font=("PT Serif", 18))
+entry.place(relx=0.27,relwidth=0.72, relheight=1)
 
 lower_frame = tk.Frame(root, bg="#c9c5e8", bd=10)
 lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor="n")
 
 label = tk.Label(lower_frame, font=("PT Serif", 28))
 label.place(relwidth=1, relheight=1)
-
 
 def clock_date():
     hour = time.strftime("%I")
