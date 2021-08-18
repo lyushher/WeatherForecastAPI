@@ -12,11 +12,11 @@ def format_response(weather):
         desc = weather["weather"][0]["description"]
         temp = weather["main"]["temp"]
 
-        final_str = "City: %s \nConditions: %s \nTemperature(F): %s" % (name, desc, temp)
+        string = "City: %s \nConditions: %s \nTemperature(F): %s" % (name, desc, temp)
     except:
-        final_str = "ERROR!"
+        string = "ERROR!"
 
-    return final_str
+    return string
 
 def get_weather(city):
     key = "bd8d3ed3b1734e5bbea29fce537ab589"
