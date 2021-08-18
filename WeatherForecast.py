@@ -58,7 +58,7 @@ def clock_date():
     year = time.strftime("%y")
     day_name = time.strftime("%A")
 
-    clock_label.config(text=hour + ":" + minute + ":" + second + " " + am_pm)
+    clock_label.config(text=hour + ":" + minute + ":" + second + "" + am_pm)
     clock_label.after(1000, clock_date)
 
     date_label.config(text=day + "." + month + "." + year + " " + day_name)
