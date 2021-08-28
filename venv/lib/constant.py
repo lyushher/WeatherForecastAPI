@@ -302,7 +302,7 @@ IANA_SUPPORTED_SIMILAR = {
     "tis_620": [
         "iso8859_11"
     ]
-}  # type: Dict[str, List[str]]
+}  
 
 
 CHARDET_CORRESPONDENCE = {
