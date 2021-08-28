@@ -22,7 +22,7 @@ ENCODING_MARKS = OrderedDict([
         BOM_UTF16_BE,
         BOM_UTF16_LE
     ]),
-])  # type: Dict[str, Union[bytes, List[bytes]]]
+])  
 
 TOO_SMALL_SEQUENCE = 32  # type: int
 TOO_BIG_SEQUENCE = int(10e6)  # type: int
