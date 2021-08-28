@@ -63,7 +63,6 @@ IANA_SUPPORTED = sorted(
 
 IANA_SUPPORTED_COUNT = len(IANA_SUPPORTED)  
 
-# pre-computed code page that are similar using the function cp_similarity.
 IANA_SUPPORTED_SIMILAR = {
     "cp037": [
         "cp1026",
