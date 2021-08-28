@@ -59,7 +59,7 @@ IANA_SUPPORTED = sorted(
         lambda x: x.endswith("_codec") is False and x not in {"rot_13", "tactis", "mbcs"},
         list(set(aliases.values()))
     )
-)  # type: List[str]
+)  
 
 IANA_SUPPORTED_COUNT = len(IANA_SUPPORTED)  
 
