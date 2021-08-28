@@ -338,4 +338,4 @@ CHARDET_CORRESPONDENCE = {
     'cp1256': 'windows-1256',
     'cp1254': 'Windows-1254',
     'cp949': 'CP949'
-}  # type: Dict[str, str]
+} 
