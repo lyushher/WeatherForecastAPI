@@ -61,7 +61,7 @@ IANA_SUPPORTED = sorted(
     )
 )  # type: List[str]
 
-IANA_SUPPORTED_COUNT = len(IANA_SUPPORTED)  # type: int
+IANA_SUPPORTED_COUNT = len(IANA_SUPPORTED)  
 
 # pre-computed code page that are similar using the function cp_similarity.
 IANA_SUPPORTED_SIMILAR = {
