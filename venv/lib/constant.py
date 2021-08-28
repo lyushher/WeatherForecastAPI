@@ -4,7 +4,6 @@ from encodings.aliases import aliases
 from re import compile as re_compile, IGNORECASE
 from collections import OrderedDict
 
-# Contain for each eligible encoding a list of/item bytes SIG/BOM
 ENCODING_MARKS = OrderedDict([
     ('utf_8', BOM_UTF8),
     ('utf_7', [
