@@ -24,7 +24,7 @@ ENCODING_MARKS = OrderedDict([
     ]),
 ])  
 
-TOO_SMALL_SEQUENCE = 32  # type: int
+TOO_SMALL_SEQUENCE = 32  
 TOO_BIG_SEQUENCE = int(10e6)  # type: int
 
 UTF8_MAXIMAL_ALLOCATION = 1112064  # type: int
