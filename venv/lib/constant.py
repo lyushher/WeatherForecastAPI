@@ -47,7 +47,7 @@ UNICODE_SECONDARY_RANGE_KEYWORD = [
     'Shapes',
     'Supplemental',
     'Tags'
-]  # type: List[str]
+] 
 
 RE_POSSIBLE_ENCODING_INDICATION = re_compile(
     r'(?:(?:encoding)|(?:charset)|(?:coding))(?:[\:= ]{1,10})(?:[\"\']?)([a-zA-Z0-9\-_]+)(?:[\"\']?)',
